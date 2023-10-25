@@ -8,6 +8,7 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import foodOrder from "../assets/portfolio/FoodDelivery.png";
 import rideNow from "../assets/portfolio/rideNow.jpeg";
 import getIt from "../assets/portfolio/getIt.PNG"
+import movieGpt from "../assets/portfolio/movieGpt.PNG"
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,18 +20,24 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: movieGpt,
+      href:"https://imaginative-tartufo-b35cc8.netlify.app/",
+      git:"https://github.com/LIL-giraffe/MoviesGPT"
+    },
+    {
+      id: 3,
       src: getIt,
       href:"https://startling-fox-427743.netlify.app",
       git:"https://github.com/LIL-giraffe/hushhproto"
     },
     {
-      id: 3,
+      id: 4,
       src: rideNow,
       href:"https://twitter.com/swatswat_go_go",
       git:"https://github.com/LIL-giraffe/FoodOrder"
     },
     {
-      id: 4,
+      id: 5,
       src: reactWeather,
       href:"https://twitter.com/swatswat_go_go",
       git:"https://github.com/LIL-giraffe/FoodOrder"
